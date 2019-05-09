@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/jquery-3.4.0.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>The Word Puzzle - Guessing Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>The Word Puzzle <span id="sub-title">Guessing Game</span></h1>
+            <form class="sentence">
+                <div class="form-group">
+                    <label for="userInput">Please write a sentence!</label>
+                    <input class="form-control userInput" type="text">
+                </div>
+                <button type="submit"class="btn btn-outline-dark">Submit!</button>
+            </form>
+            <div id="puzzle">
+                <ul>
+                    <span id="dashed">Dashed sentence! </span>
+                    <span id="no-vowels">***This is the sentence with no vowels***</span>
+                    <span id="guess">Try guessing it!</span>
+                </ul>
+                <button type="submit" id="return" class="btn btn-outline-dark">Return!</button>
+            </div>
+        </div>
+    </body>
+</html>
